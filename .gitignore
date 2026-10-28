@@ -1,0 +1,19 @@
+# Credentials and machine-local state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+work/
+# Generated datasets, models and annotations
+data/*
+!data/.gitkeep
+*.pkl
+*.sqlite
+*.sqlite3
+*.log
